@@ -1,0 +1,94 @@
+@font-face {
+    font-family: sans-serif;
+}
+
+* {
+    font-family: sans-serif;
+    color: #000;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+html,body {
+    background-color: #333;
+    height: 100%;
+}
+
+a {
+    color: #DFDFDF;
+    text-decoration: none;
+}
+
+header {
+    width: 70%;
+    min-width: 50%;
+    background-color: #333;
+    margin: auto;
+    padding: 4px;
+}
+
+header p {
+    display: inline-block;
+    width: 12%;
+    min-width: 100px;
+    height: 30px;
+    padding: 5px 5px 0;
+}
+
+#main {
+    position: relative;
+    top: -10px;
+    min-height: 100%;
+    min-width: 900px;
+    padding-top: 15px;
+    background-color: #333;
+    margin: auto auto;
+    text-align: center;
+}
+
+section {
+    vertical-align: top;
+    position: relative;
+    background-color: #333;
+    min-width: 50em;
+    min-height: 100%;
+    font-size: .85em;
+}
+
+section p {
+    display: inline-block;
+    min-width: 100px;
+    height: 30px;
+}
+
+#alex {
+    text-align: center;
+    padding-bottom: 0.2em;
+}
+
+#form, #logo {
+    display: inline-block;
+}
+
+input[type=text], input[type=submit] {
+    background-color: #666;
+    color: #eee;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #1ca804;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    font-size: small;
+}
